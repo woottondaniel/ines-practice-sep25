@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(129, 173, 228);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(21, 27, 27);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+    color: rgb(95, 63, 24);
+}
+
+.travel-page .box-one {
+    border: 12px solid lightgreen;
+    background-color: lightcoral;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.travel-page .box-one h4 {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    border: transparent;
+    background-color: transparent;
+}
+
+.travel-page .box-one a,
+.travel-page .box-one p {
+    border: transparent;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.travel-page .box-one p em {
+    background-color: inherit;
+}
+
+.travel-page .box-two {
+    border: 12px solid rgb(163, 31, 31);
+    background-color: rgb(153, 224, 211);
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.travel-page .box-two h4 {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    border: transparent;
+    background-color: transparent;
+}
+
+.travel-page .box-two a,
+.travel-page .box-two p {
+    border: transparent;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.travel-page .box-two p del {
+    background-color: inherit;
+}
+
+
+.travel-page .box-three {
+    border: 12px solid rgb(126, 35, 113);
+    background-color: rgb(202, 230, 105);
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.travel-page .box-three h4 {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    border: transparent;
+    background-color: transparent;
+}
+
+.travel-page .box-three a,
+.travel-page .box-three p {
+    border: transparent;
+    font-size: 14px;
+    background-color: transparent;
+}
