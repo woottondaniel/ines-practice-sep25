@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/*universal above, travel page starts below */
+
 body.travel-page {
     background-color: rgb(129, 173, 228);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -181,6 +183,100 @@ body.music-page {
 .music-page .box-three p,
 .music-page .box-three ul
 .music-page .box-three li {
+    border: transparent;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+/* end of music page beginning of food page */
+
+body.food-page {
+    background-color: rgb(244, 176, 116);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(21, 27, 27);
+}
+
+.food-page h1 {
+    font-size: 24px;
+    color: rgb(4, 45, 48);
+}
+
+.food-page .box-one {
+    border: 12px solid rgb(122, 9, 43);
+    background-color: rgb(147, 90, 90);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+.food-page .box-one h4 {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    border: transparent;
+    background-color: transparent;
+}
+
+.food-page .box-one a,
+.food-page .box-one p {
+    border: transparent;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.food-page .box-one p em {
+    background-color: inherit;
+}
+
+.food-page .box-two {
+    border: 12px solid rgb(208, 239, 30);
+    background-color: rgb(44, 89, 5);
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.food-page .box-two h4 {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    border: transparent;
+    background-color: transparent;
+}
+
+.food-page .box-two a,
+.food-page .box-two p {
+    border: transparent;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.food-page .box-two p del {
+    background-color: inherit;
+}
+
+
+.food-page .box-three {
+    border: 12px solid rgb(92, 83, 91);
+    background-color: rgb(156, 231, 235);
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.food-page .box-three h4 {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    border: transparent;
+    background-color: transparent;
+}
+
+.food-page .box-three a,
+.food-page .box-three p {
     border: transparent;
     font-size: 14px;
     background-color: transparent;
