@@ -18,6 +18,12 @@ h4 {
     font-weight: bold;
     color: rgb(49, 28, 28);
     font-style: italic;
+    border: 10px solid brown;
+    margin: 10px;
+    padding: 4px;
+    background-color: lightsalmon;
+    box-sizing: border-box;
+    display: inline-block;
 }
 
 .listbox {
