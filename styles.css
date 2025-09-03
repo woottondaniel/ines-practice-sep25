@@ -1,0 +1,72 @@
+* {
+    background-color: rgb(187, 151, 221);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(21, 27, 27);
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+    color: rgb(10, 130, 90);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(49, 28, 28);
+    font-style: italic;
+}
+
+.listbox {
+    border: 20px solid aquamarine;
+    display: inline-block;
+    background-color: rgb(121, 121, 33);
+    padding: 16px 20px;
+    color: beige;
+}
+
+
+.listbox h4 {
+    margin: 0 0 10px;
+    background: none;
+    border: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 21px;
+    color: beige;
+}
+
+.listbox ol{
+    margin: 0;
+    padding-left: 24px;
+    background: none;
+    border: none;
+    color: beige;
+}
+
+.listbox a {
+    background-color: transparent;
+    color: beige;
+}
+
+
+.listbox li {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: beige;
+}
+
+.listbox li::marker {
+    color: beige;
+}
+
+#signoff {
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 0.2cm;
+}
